@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock Text="Pick Your Strong Suit"  Margin="80" HorizontalAlignment="Center"  Style="{StaticResource TitleTextBlockStyle}"/>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Is it Prime?"
+                    x:Name="Button_isitPrime" 
+                    HorizontalAlignment="Center" 
+                    Click="Button_isitPrime_Click"
+                    BorderBrush="Transparent"/>
+            <Button Content="What's next?" 
+                    Name="Button_whatsNext" 
+                    Click="Button_whatsNext_Click"
+                    BorderBrush="Transparent"/>
+            <Button Content="How close?"
+                    HorizontalAlignment="Center" 
+                    Name="Button_HowClose"
+                    Click="Button_HowClose_Click"
+                    BorderBrush="Transparent"/>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,4 @@
+MainPackage=C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\bin\Release\App1.Windows_1.1.0.0_Bundle\App1.Windows_1.1.0.0_AnyCPU.appx
+SymbolPackage=C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\AppPackages\App1.Windows_1.1.0.0_Test\App1.Windows_1.1.0.0_AnyCPU.appxsym
+ResourcePack=C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\bin\Release\App1.Windows_1.1.0.0_Bundle\App1.Windows_1.1.0.0_scale-140.appx
+ResourcePack=C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\bin\Release\App1.Windows_1.1.0.0_Bundle\App1.Windows_1.1.0.0_scale-180.appx

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EMYS</Machine>
+    <WindowsUser>EMYS</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1d00066e-ecc6-4de1-b72c-fae4c0c0b99c</PackageIdentityName>
+    <PackageIdentityPublisher>CN=72680922-7997-4D62-9AE8-AD419DC55A0F</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\bin\Debug\App1.WindowsPhone.exe">
+      <PackagePath>App1.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\106x106.png">
+      <PackagePath>Assets\106x106.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\1116x1860.png">
+      <PackagePath>Assets\1116x1860.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\1152x1920.png">
+      <PackagePath>Assets\1152x1920.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\120x120.png">
+      <PackagePath>Assets\120x120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\150pi.png">
+      <PackagePath>Assets\150pi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\170x170pi.png">
+      <PackagePath>Assets\170x170pi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\210x210.png">
+      <PackagePath>Assets\210x210.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\310x150.png">
+      <PackagePath>Assets\310x150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\360x360.png">
+      <PackagePath>Assets\360x360.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\434x210.png">
+      <PackagePath>Assets\434x210.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\44x44.png">
+      <PackagePath>Assets\44x44.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\480x800.png">
+      <PackagePath>Assets\480x800.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\50x50.png">
+      <PackagePath>Assets\50x50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\62x62.png">
+      <PackagePath>Assets\62x62.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\672x1120.png">
+      <PackagePath>Assets\672x1120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\70x70.png">
+      <PackagePath>Assets\70x70.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\71x71.png">
+      <PackagePath>Assets\71x71.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\744.png">
+      <PackagePath>Assets\744.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\744x360.png">
+      <PackagePath>Assets\744x360.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\99x99.png">
+      <PackagePath>Assets\99x99.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\background pic.png">
+      <PackagePath>Assets\background pic.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\Square71x71Logo.scale-140.png">
+      <PackagePath>Assets\Square71x71Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\Assets\71x71pi.dib">
+      <PackagePath>Assets\71x71pi.dib</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\bin\Debug\App1.WindowsPhone.xr.xml">
+      <PackagePath>App1.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\bin\Debug\HowClose.xbf">
+      <PackagePath>HowClose.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\bin\Debug\IsItPrime.xbf">
+      <PackagePath>IsItPrime.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\bin\Debug\WhatsNext.xbf">
+      <PackagePath>WhatsNext.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
