@@ -1,0 +1,2 @@
+# IsItPrime
+A game to help your knowledge with prime numbers. It was developedd with visual studios 2013 and sadly I couln't run it anymore due to MIcrosft making the IDE absolete and I still didn't install the newest version to update the app

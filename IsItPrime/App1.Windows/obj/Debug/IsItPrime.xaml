@@ -1,0 +1,76 @@
+﻿<Page
+    x:Class="App1.IsItPrime"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Is It Prime?" 
+                   FontSize="80" 
+                   HorizontalAlignment="Left" Margin="290,0,0,0"/>
+
+        <StackPanel Grid.Row="1"
+                    Margin="20,0,20,0"
+                    >
+            <TextBlock Text="Please Enter a number"
+        		FontSize="40"/>
+            <TextBox x:ConnectionId='2' InputScope="Number" 
+                     FontSize="20"
+                     MaxLength="9"
+                     Name="TextBox_primeInput"
+                     Text="Example: 2,3, 56, 78 "
+                                                           
+                                                                  
+                     Foreground="#FF4B4545"
+                     Margin="0,10,0,10"
+                     
+                     />
+            <TextBlock Text="Do you Think It's Prime?" FontSize="35"/>
+            <RadioButton Content="Yes" 
+                         Name="Yes"
+                         FontSize="25"
+                         GroupName="Group"/>
+            <RadioButton Content="No" 
+                         Name="No"
+                         FontSize="25"
+                         GroupName="Group"/>
+            <Button x:ConnectionId='3' HorizontalAlignment="Center" 
+                    Content="Submit"
+                    FontSize="20"
+                    Name="button_Submit"
+                                               />
+            <StackPanel Orientation="Horizontal" Height="Auto" Margin="0,20,0,0">
+                <TextBlock Text="Answer:" Margin="0,0,0,0" FontSize="25"/>
+                <TextBlock Name="TextBlock_AnswerPrime" 
+                           FontSize="25" 
+                           HorizontalAlignment="Left" 
+                           VerticalAlignment="Bottom"
+                           Margin="10,0,0,0"
+                           TextWrapping="Wrap"  Height="Auto" Width="Auto"/>
+            </StackPanel>
+            <TextBlock Height="Auto" 
+                       Name="TextBlock_divisibleBy" 
+                       FontSize="25"
+                       TextWrapping="Wrap"
+                       Margin="0,10,10,0"
+                       Width="Auto" />
+        </StackPanel>
+        <Button x:ConnectionId='1' Grid.Row="2" 
+                Content="Home"
+                Name="Button_StartOver"
+                                              
+                BorderBrush="Transparent"
+                FontSize="25"/>
+
+    </Grid>
+</Page>
+

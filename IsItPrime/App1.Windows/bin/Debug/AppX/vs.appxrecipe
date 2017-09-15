@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EMYS</Machine>
+    <WindowsUser>EMYS</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>7000Ebrahim1994.IsItPrime</PackageIdentityName>
+    <PackageIdentityPublisher>CN=72680922-7997-4D62-9AE8-AD419DC55A0F</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>57A2DB638DAEC06E92A80FF9BA3FA6C93F30D722B338A73FDA76B26FDF0FF54C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>7000Ebrahim1994.IsItPrime_1.1.0.0_neutral__syxfvkafqm16t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>7000Ebrahim1994.IsItPrime_syxfvkafqm16t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>7000Ebrahim1994.IsItPrime</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=72680922-7997-4D62-9AE8-AD419DC55A0F</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-30T10:05:59.249</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\bin\Debug\App1.Windows.exe">
+      <PackagePath>App1.Windows.exe</PackagePath>
+      <Modified>2016-11-30T10:05:53.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2014-12-10T16:08:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2014-12-10T16:08:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\1152x1920.png">
+      <PackagePath>Assets\1152x1920.png</PackagePath>
+      <Modified>2015-02-14T14:44:57.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\150pi.png">
+      <PackagePath>Assets\150pi.png</PackagePath>
+      <Modified>2015-02-14T14:44:57.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\310x150.png">
+      <PackagePath>Assets\310x150.png</PackagePath>
+      <Modified>2015-02-14T15:09:03.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\360x360.png">
+      <PackagePath>Assets\360x360.png</PackagePath>
+      <Modified>2015-02-14T14:44:57.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\42x42.png">
+      <PackagePath>Assets\42x42.png</PackagePath>
+      <Modified>2015-02-14T16:02:41.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\434x434.png">
+      <PackagePath>Assets\434x434.png</PackagePath>
+      <Modified>2015-02-14T17:20:40.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\480x800.png">
+      <PackagePath>Assets\480x800.png</PackagePath>
+      <Modified>2015-02-14T14:44:56.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\48x48.png">
+      <PackagePath>Assets\48x48.png</PackagePath>
+      <Modified>2015-02-14T16:04:45.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\558x270.scale-100.png">
+      <PackagePath>Assets\558x270.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T15:09:03.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\558x270.scale-140.png">
+      <PackagePath>Assets\558x270.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T15:10:56.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\558x270.scale-180.png">
+      <PackagePath>Assets\558x270.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T17:22:07.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\558x270.scale-80.png">
+      <PackagePath>Assets\558x270.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T15:05:54.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\558x558.scale-100.png">
+      <PackagePath>Assets\558x558.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T15:55:36.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\558x558.scale-140.png">
+      <PackagePath>Assets\558x558.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T17:20:40.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\558x558.scale-180.png">
+      <PackagePath>Assets\558x558.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T17:12:54.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\558x558.scale-80.png">
+      <PackagePath>Assets\558x558.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T15:54:57.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\56x56.png">
+      <PackagePath>Assets\56x56.png</PackagePath>
+      <Modified>2015-02-14T14:53:33.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\620x300.png">
+      <PackagePath>Assets\620x300.png</PackagePath>
+      <Modified>2015-02-14T16:13:14.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\62x62.png">
+      <PackagePath>Assets\62x62.png</PackagePath>
+      <Modified>2015-02-14T14:44:56.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\672x1120.png">
+      <PackagePath>Assets\672x1120.png</PackagePath>
+      <Modified>2015-02-14T14:44:56.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\70x70.scale-100.png">
+      <PackagePath>Assets\70x70.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T14:44:56.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\70x70.scale-140.png">
+      <PackagePath>Assets\70x70.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T14:52:58.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\70x70.scale-180.png">
+      <PackagePath>Assets\70x70.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T14:51:23.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\70x70.scale-80.png">
+      <PackagePath>Assets\70x70.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T14:53:33.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\744.png">
+      <PackagePath>Assets\744.png</PackagePath>
+      <Modified>2015-02-14T14:44:56.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\744x360.png">
+      <PackagePath>Assets\744x360.png</PackagePath>
+      <Modified>2015-02-14T14:44:56.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\background pic.png">
+      <PackagePath>Assets\background pic.png</PackagePath>
+      <Modified>2015-02-14T14:44:56.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T14:44:56.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T14:44:56.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T14:57:05.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T14:44:56.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T14:44:57.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T16:02:02.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T16:02:41.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T16:03:52.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T14:44:56.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\SmallLogo.scale-80.png">
+      <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T15:51:22.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\SmallLogo.targetsize-16.png">
+      <PackagePath>Assets\SmallLogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T16:09:16.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\SmallLogo.targetsize-256.png">
+      <PackagePath>Assets\SmallLogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T16:07:19.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\SmallLogo.targetsize-32.png">
+      <PackagePath>Assets\SmallLogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T16:08:21.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\SmallLogo.targetsize-48.png">
+      <PackagePath>Assets\SmallLogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T16:04:45.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T16:13:14.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T16:11:47.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T16:10:58.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2015-02-14T14:44:56.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\Square71x71Logo.scale-140.png">
+      <PackagePath>Assets\Square71x71Logo.scale-140.png</PackagePath>
+      <Modified>2015-02-14T14:44:56.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <Modified>2015-02-14T14:44:56.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T14:44:56.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T14:44:56.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T15:00:56.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-14T14:44:56.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2015-02-14T14:44:56.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+      <Modified>2015-02-14T14:44:56.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <Modified>2015-02-14T14:44:56.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\Assets\71x71pi.dib">
+      <PackagePath>Assets\71x71pi.dib</PackagePath>
+      <Modified>2015-02-14T14:44:56.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\bin\Debug\App1.Windows.xr.xml">
+      <PackagePath>App1.Windows.xr.xml</PackagePath>
+      <Modified>2016-11-30T10:05:53.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-02-11T18:29:32.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\bin\Debug\HowClose.xbf">
+      <PackagePath>HowClose.xbf</PackagePath>
+      <Modified>2015-02-15T16:32:20.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\bin\Debug\IsItPrime.xbf">
+      <PackagePath>IsItPrime.xbf</PackagePath>
+      <Modified>2015-02-15T16:32:20.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-02-14T17:53:45.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\bin\Debug\WhatsNext.xbf">
+      <PackagePath>WhatsNext.xbf</PackagePath>
+      <Modified>2015-02-15T16:32:20.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ebrah_000\Documents\Visual Studio 2013\Projects\App1\App1\App1.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-11-30T10:05:57.355</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

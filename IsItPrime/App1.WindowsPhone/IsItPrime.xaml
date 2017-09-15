@@ -1,0 +1,68 @@
+﻿<Page
+    x:Class="App1.IsItPrime"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <ScrollViewer>
+    <Grid Margin="20,20,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Is It Prime?" 
+                   FontSize="30" 
+                   HorizontalAlignment="Left"/>
+
+        <StackPanel Grid.Row="1">
+            <TextBlock Text="Please Enter a number"
+        		FontSize="25"/>
+            <TextBox InputScope="Number" 
+                     MaxLength="10"
+                     Name="TextBox_primeInput"
+                     Text="Example: 2,3, 56, 78 "
+                     GotFocus="TextBox_primeInput_GotFocus"
+                     TextChanged="TextBox_primeInput_TextChanged" 
+                     Foreground="#FF4B4545"
+                     
+                     />
+            <TextBlock Text="Do you Think It's Prime?" FontSize="20"/>
+            <RadioButton Content="Yes" 
+                         Name="Yes"
+                         GroupName="Group"/>
+            <RadioButton Content="No" 
+                         Name="No"
+                         GroupName="Group"/>
+            <Button HorizontalAlignment="Center" 
+                    Content="Submit"
+                    Name="button_Submit"
+                    Click="button_Submit_Click"/>
+            <StackPanel Orientation="Horizontal" Height="Auto" Margin="0,20,0,0">
+                <TextBlock Text="Answer:" Margin="0,0,0,0" FontSize="20"/>
+                <TextBlock Name="TextBlock_AnswerPrime" 
+                           FontSize="20" 
+                           HorizontalAlignment="Left" 
+                           VerticalAlignment="Bottom"
+                           Margin="10,0,0,0"
+                           TextWrapping="Wrap" Width="296" Height="Auto"/>
+            </StackPanel>
+            <TextBlock Height="Auto" 
+                       Name="TextBlock_divisibleBy" 
+                       FontSize="20"
+                       TextWrapping="Wrap"
+                       Margin="0,10,10,0"/>
+        </StackPanel>
+        <Button Grid.Row="2" 
+                Content="Home"
+                Name="Button_StartOver"
+                Click="Button_StartOver_Click"
+                BorderBrush="Transparent"/>
+          
+        </Grid>
+    </ScrollViewer>
+</Page>
